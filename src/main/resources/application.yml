@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hrb-activite
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/labor?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password:  hrbroot
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /activit
+
+manInfo:
+  user: bing
+  pwd: rootbing
